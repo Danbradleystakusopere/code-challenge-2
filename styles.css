@@ -1,0 +1,84 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+
+h1 {
+  color: navy;
+}
+
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid navy;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: seagreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+
+#guest-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#guest-list li {
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px;
+  width: 300px;
+  border: 2px solid navy;
+  border-radius: 5px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.rsvp-button {
+  background-color: orange;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.rsvp-button:hover {
+  background-color: darkorange;
+}
+
+.remove-button {
+  background-color: crimson;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: darkred;
+}
