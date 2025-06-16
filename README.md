@@ -2,7 +2,6 @@
 
 This is a simple Event Guest List Manager web app built using HTML, CSS, and JavaScript. It allows users to add guests to an event, mark their RSVP status, and remove them when needed — all without refreshing the page!
 
----
 
 ##  Features
 
